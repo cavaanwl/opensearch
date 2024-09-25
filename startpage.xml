@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+<ShortName>Startpage</ShortName>
+<Description>Startpage Search</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16" type="image/x-icon">https://www.startpage.com/favicon.ico</Image>
+<Query role="example" searchTerms="cat" />
+<Url type="text/html" template="https://www.startpage.com/sp/search?query={searchTerms}&amp;cat=web&amp;pl=opensearch&amp;language=english"></Url>
+<Url type="application/x-suggestions+json" rel="suggestions" template="https://www.startpage.com/osuggestions?q={searchTerms}"/>
+</OpenSearchDescription>
